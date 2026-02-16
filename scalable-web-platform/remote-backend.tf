@@ -4,7 +4,7 @@ terraform {
   backend "s3" {
     bucket  = "demo-basics"
     key     = "scalable-web-platform/terraform.tfstate"
-    region  = "eu-west-2"
+    region  = "eu-north-1"
     encrypt = true
 
   }
